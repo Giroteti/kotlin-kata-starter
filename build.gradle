@@ -41,7 +41,7 @@ dependencies {
 }
 
 jar {
-    manifest { attributes 'Main-Class': 'example.HelloWorldKt' }
+    manifest { attributes 'Main-Class': 'example.MainKt' }
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
 }
 
