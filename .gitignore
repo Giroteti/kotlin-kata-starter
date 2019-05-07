@@ -1,5 +1,6 @@
 build
 .gradle
+spec_failures
 
 ### Kotlin ###
 # Compiled class file

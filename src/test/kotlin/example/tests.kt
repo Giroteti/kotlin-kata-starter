@@ -1,12 +1,10 @@
 package example
 
-import org.assertj.core.api.Assertions.assertThat
-import kotlin.test.assertEquals
-import org.junit.Test
+import io.kotlintest.shouldBe
+import io.kotlintest.specs.StringSpec
 
-class ExampleTestSuite {
-    @Test
-    fun exampleTest() {
-        assertThat(getGreeting()).isEqualTo("Hello, world!")
+class MyTests : StringSpec({
+    "Greetings should be Hello, world!" {
+        getGreeting() shouldBe("Hello, world!")
     }
-}
+})
