@@ -50,6 +50,8 @@ readonly kataName=${1:-}
 git clone git@github.com:EGI-OCTO/kotlin-kata-starter.git ./$kataName
 
 rm -rf ./$kataName/.git
+rm -rf ./$kataName/docs
+rm ./$kataName/README.md
 
 echo "${GREEN}✅   - Kata project created, test your configuration by running \"./gradlew clean test\"${NORMAL} (or use your own wrapper \"gradle wrapper\")"
 ```
