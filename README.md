@@ -56,7 +56,7 @@ echo "${GREEN}✅   - Kata project created, test your configuration by running \
 
 **2 - Set it as an alias**
 ```bash
-kataKotlin='sh ~/kotlin-kata-starter.sh
+kataKotlin='sh ~/kotlin-kata-starter.sh'
 ```
 
 **3 - Use it !**
